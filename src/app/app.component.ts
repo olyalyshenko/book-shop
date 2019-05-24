@@ -1,10 +1,21 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'book-shop';
+  
+  public user = {
+    name: 'Olha',
+    soname: 'Lyshenko'
+  };
+  
+  ngOnInit(){
+
+  }
+
+  title = 'BookShop';
 }
